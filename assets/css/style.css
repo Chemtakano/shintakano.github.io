@@ -36,8 +36,9 @@ hero
 
 .hero {
     width: 100vw;
-    height: 105vh;
+    height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 .hero > strong {
     z-index: 2;
@@ -46,17 +47,25 @@ hero
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 120px;
-    color: aqua;
+    color: teal;
     font-weight: bold;
+    display: block;
     width: 100%;
     text-align: center;
 }
 .hero > video {
     z-index: 1;
     position: absolute;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 105%;
 }
+@media screen and (max-width: 768px){
+    .hero > strong {
+        font-size: 50px;
+    }
+}
+
+
 /*
 about
 */
@@ -78,6 +87,16 @@ about
 .about-description {
     font-size: 20px;
 }
+@media screen and (max-width: 768px){
+    .about{
+        display: flex;
+    }
+    .about-image {
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
+
 
 /*
 grid
@@ -101,6 +120,20 @@ grid
 .grid-col-4 > .grid-item {
     width: 25%
 }
+@media screen and (max-width: 768px){
+    .grid{
+        display: block;
+    }
+    .grid-col-2 > .grid-item,
+    .grid-col-3 > .grid-item,
+    .grid-col-4 > .grid-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+
+
 
 /*
 hobby
