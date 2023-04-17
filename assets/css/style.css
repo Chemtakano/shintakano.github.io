@@ -10,6 +10,31 @@ body{
     color: #333;
 }
 
+/*カーソル*/
+label, input, textarea, select, button {
+    cursor: pointer;
+}
+
+/*button*/
+.button {
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    background: #333;
+    text-align: center;
+    padding: 15px 60px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0;
+    transition: box-shadow .25s;
+}
+.button:hover {
+    box-shadow: 0 0 0 #bbb;
+}
+.button.button-submission {
+    background: #92d3ca;
+}
+
 /*
 section
 */
@@ -28,6 +53,10 @@ section
 }
 .section.section-third{
     background: #ffffff;
+}
+.section-button {
+    margin-top: 40px;
+    text-align: center;
 }
 
 /*
@@ -160,11 +189,80 @@ hobby
     font-size: 20px;
 }
 
+
+/*
+contact
+*/
+.select {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+}
+.input {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;
+}
+.textarea {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-width: 500px;  
+    min-height: 100px;  
+}
+.form-table {
+    margin: 0 auto;
+}
+.form-table th {
+    padding: 10px;
+    text-align: left;
+}
+.form-table {
+    padding: 10px;
+}
+.form-button {
+    text-align: center;
+    margin: 20px;
+}
+@media screen and (max-width: 768px){
+    .select,
+    .input,
+    .textarea {
+        min-width: auto;
+        width: 100%;
+    }
+}
+
+
+/*
+works
+*/
+.works {
+    margin: 20px 40px 0;
+    padding: 20px;
+    text-align: center;
+}
+.works > a {
+    margin: 0 20px;
+}
+@media screen and (max-width: 768px){
+    .works {
+        margin: 20px 0;
+        padding: 10px;
+    }
+    .works > a {
+        width: 100px;
+        margin: 20px 30;
+    }
+}
+
 /*
 footer
 */
 .footer {
-    background: #00bcb0a3;
+    background: #529792a3;
 }
 .footer-map {
     margin: 0;
@@ -188,7 +286,7 @@ footer
     font-style: normal;
 }
 .footer-line {
-    border-color: aqua;
+    border-color: teal;
 }
 .footer-copy {
     display: block;
