@@ -154,7 +154,8 @@
           Contact<br/>
           ! not available now !
         </h1>
-        <form class="form" action="">
+        <form action="https://formsubmit.co/chemtakano@gmail.com" method="POST">
+          <!--mail to Gmail-->
           <table class="form-table">
             <tr>
               <th>
@@ -177,7 +178,7 @@
                 </label>
               </th>
               <td>
-                <input class="input" type="text" id="name">
+                <input class="input" type="text" id="name" name="name" required>
               </td>
             </tr>
             <tr>
@@ -187,7 +188,7 @@
                 </label>
               </th>
               <td>
-                <input class="input" type="email" id="email">
+                <input class="input" type="email" id="email" name="email" required>
               </td>
             </tr>
             <tr>
@@ -197,7 +198,7 @@
                 </label>
               </th>
               <td>
-                <textarea class="textarea" cols="30" rows="10" id="detail"></textarea>
+                <textarea class="textarea" cols="30" rows="10" id="detail" name="massage" required></textarea>
               </td>
             </tr>
           </table>
