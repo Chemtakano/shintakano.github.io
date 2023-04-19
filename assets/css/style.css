@@ -86,7 +86,7 @@ hero
     z-index: 1;
     position: absolute;
     width: auto;
-    height: 105%;
+    height: 120%;
 }
 @media screen and (max-width: 768px){
     .hero > strong {
@@ -121,8 +121,8 @@ about
         display: flex;
     }
     .about-image {
-        max-width: 50%;
-        max-height: 50%;
+        max-width: 40%;
+        height: 50%;
     }
 }
 
