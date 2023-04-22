@@ -184,10 +184,32 @@ hobby
 }
 
 /*工事中*/
-.constructing {
-    text-align: center;
+.card {
+    padding: 0 10px;
+}
+.card-label {
+    position: absolute;
+    background-color: #999;
+    color: #333;
+    display: block;
+    padding: 5px 10px;
     font-size: 20px;
 }
+.card-img {
+    width: 80%;
+    height: auto;
+}
+.card-info {
+    padding: 5px 10px;
+}
+.card-time {
+    margin: 0;
+}
+.card-headline {
+    margin: 0;
+}
+.card-descriotion {}
+
 
 
 /*
