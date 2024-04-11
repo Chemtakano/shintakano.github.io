@@ -1,5 +1,7 @@
 [First author]
-Shin Takano & Yusuke Miyashima, et al. "Molecular Bottlebrushes for Immunostimulatory CpG ODN Delivery: Relationship among Cation Density, Complex Formation Ability, and Cytotoxicity." Biomacromolecules 24.3 (2023): 1299-1309.
+Shin Takano & Ryohei Ono et al. "A surprisingly narrow particle size distribution for polyacrylic acid nanospheres produced by precipitation polymerization and revealed by small-angle X-ray scattering." Polymer Journal (2023): 1-5.
+
+Shin Takano & Yusuke Miyashima et al. "Molecular Bottlebrushes for Immunostimulatory CpG ODN Delivery: Relationship among Cation Density, Complex Formation Ability, and Cytotoxicity." Biomacromolecules 24.3 (2023): 1299-1309.
 
 Shin Takano et al. "Internalization into cancer cells of zwitterionic amino acid polymers via amino acid transporter recognition." Polymer Chemistry 12.42 (2021): 6083-6087.
 
@@ -8,6 +10,8 @@ Shin Takano et al. "Weak Interplay between Hydrophobic Part of Water-Soluble Pol
 Shin Takano et al. "Phosphorylcholine-Grafted Molecular Bottlebrush–Doxorubicin Conjugates: High Structural Stability, Long Circulation in Blood, and Efficient Anticancer Activity." Biomacromolecules 22.3 (2020): 1186-1196.
 
 [coauthor]
+Shota Fujii, Shin Takano, Koji Nakazawa, & Kazuo Sakurai. (2022). Impact of zwitterionic polymers on the tumor permeability of molecular bottlebrush-based nanoparticles. Biomacromolecules, 23(7), 2846-2855.
+
 Van T. H. Doan, Shin Takano, Ngoc Anh T. Doan, Phuong T. M. Nguyen, Van Anh T. Nguyen, Huong T. T. Pham, Koji Nakazawa, Shota Fujii & Kazuo Sakurai "Anticancer efficacy of cyclodextrin-based hyperbranched polymer nanoparticles containing alpha-mangostin." Polymer Journal 53.3 (2021): 481-492.
 
 Kenichi Aburai, Kentaro Hatanaka, Shin Takano, Shota Fujii, and Kazuo Sakurai "Characterizing an siRNA-containing lipid-nanoparticle prepared by a microfluidic reactor: small-angle X-ray scattering and cryotransmission electron microscopic studies." Langmuir 36.42 (2020): 12545-12554.
